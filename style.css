@@ -1,0 +1,169 @@
+.presentation
+{
+color: #799351;
+justify-content: 120;
+}
+.fatou
+{
+color: white;
+justify-content: 100;
+}
+ul{
+	list-style-type: none;
+}
+
+.header
+{
+	color: #734046;
+	padding: 50;
+	text-align: center;
+	margin: 50;
+
+}
+
+
+h2{
+color: RosyBrown;
+font-family: courier;
+}
+
+h1{
+font-weight: bold;
+}
+
+.circle{
+	border-radius: 50%;
+}
+
+.shadowed{
+	box-shadow: 5px 5px 3px black;
+
+}
+img {
+	width: 50px;
+	height: 100px;
+	text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+}
+
+.btn-blue {
+	background-color: #6B72E1;
+	color: white;
+	padding: 15px 20 px
+	border-radius: 4px;
+
+}
+
+.btn-blue:hover {
+ background-color: black;
+ color: white;
+}
+
+.inline {
+	list-style: none;
+	padding-left: 0px;
+}
+html{
+	height: 100%;
+}
+.container{
+	min-width: 100vw; 
+	min-height: 100vh;
+
+}
+
+@media (max-width: 760px)
+.container {
+	width: 600px
+}
+
+@media (max-width: 500px)
+.container {
+	width: 400px
+}
+
+
+
+
+
+#zone1{
+background-image: url("images/baner.jpg");
+background-repeat: no-repeat;
+min-width: 100vw; 
+min-height: 100vh;
+text-align: center;
+
+}
+#zone2{
+background-image: url("images/bussin.jpg");
+background-repeat: no-repeat;
+min-width: 100vw; 
+min-height: 100vh;
+text-align: center;
+}
+#zone3{
+background-image: url("images/fatou.jpg");
+background-repeat: no-repeat;
+min-width: 100vw; 
+min-height: 100vh;
+text-align: center;
+}
+#zone4{
+background-image: url("images/voyage.jpg");
+background-repeat: no-repeat;
+min-width: 100vw; 
+min-height: 100vh;
+text-align: center;	
+}
+
+#zone5{
+background-image: url("images/flo.jpg");
+background-repeat: no-repeat;
+min-width: 100vw; 
+min-height: 100vh;
+text-align: center;	
+}
+
+.content {
+padding-top: 100px;
+}
+
+body{
+margin: 0;
+padding:0;
+}
+
+header{
+width: 100%;
+position: relative;
+z-index: 2;
+
+
+}
+
+nav{
+position: fixed;
+width: 100%;
+
+}
+nav ul{
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: white;
+}
+
+nav ul li{
+	padding: 15px;
+	display: inline-block;
+
+}
+a{
+text-decoration: none;
+}
+
